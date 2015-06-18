@@ -1,7 +1,7 @@
 # freekerneljs-basic-app
 
-A basic application template to be used with generator-freekerneljs.
-This template uses AngularJS as the MVC framework, combined with **Bootstrap** to provide the UI design. 
+A basic application template to be used with [generator-freekerneljs](https://github.com/FreeKernelJS/generator-freekerneljs).  
+This template uses AngularJS as the MVC framework, combined with Bootstrap to provide the UI design.  
 It can be used as a starting point and basis to develop your own application.
 
 
