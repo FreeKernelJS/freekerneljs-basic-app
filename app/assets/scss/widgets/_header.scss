@@ -3,7 +3,6 @@
     margin-left: $navbar-width;
     border-bottom: 1px solid $color-grey-300;
     background-color: $background-header-color;
-    height: 100%;
     vertical-align: top;
     @include transition(all, .1s, linear);
 }

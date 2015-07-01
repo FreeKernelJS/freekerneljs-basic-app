@@ -8,7 +8,7 @@ html,body{
 }
 
 body {
-    background-color: darken($background-color, 3%);
+    background-color: #fff;
 }
 
 a {
@@ -32,7 +32,7 @@ a:focus {
 
 // ~~~ common styles for the entire app
 
-.content-bg{
-    padding: $padding-small;
+.fkjs-page-container{
     overflow-y: auto;
+    padding: $padding-small;
 }

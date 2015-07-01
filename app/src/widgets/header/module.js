@@ -7,6 +7,8 @@ angular.module('fkjs.widgets.header', [])
  * @ngdoc directive
  * @name fkjs.widgets.header:fkjsHeader
  *
+ * @param {string} headerId The id to be bind to the header
+ *
  * @description
  * Displays a header on top of each page.
  * 
@@ -20,6 +22,7 @@ angular.module('fkjs.widgets.header', [])
         replace: true,
         
         scope: {
+            headerId: '@'
         },
         
         controller: function($scope){

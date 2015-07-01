@@ -29,10 +29,21 @@
     </head>
 
     <body ng-controller="MainController">
+        
+        <!-- left navigation bar -->
         <fkjs-navbar></fkjs-navbar>
-        <section>
-            <fkjs-header></fkjs-header>
-            <div class="content-bg" ui-view></div>
+        
+        <!-- main section -->
+        <main>
+            <!-- header -->
+            <fkjs-header header-id="{{headerId}}"></fkjs-header>
+            
+            <!-- page container -->
+            <section class="fkjs-page-container" 
+                     fkjs-page-scroller
+                     header-id="{{headerId}}"
+                     ui-view>
         </section>
+        </main>
     </body>
 </html>

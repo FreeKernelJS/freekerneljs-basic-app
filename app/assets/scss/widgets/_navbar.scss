@@ -1,6 +1,6 @@
 .fkjs-navbar{
     @include transition(all, .1s, linear);
-    background-color: #fff;
+    background: none #FAFAFA;
     margin: 0;
 }
 
@@ -24,7 +24,6 @@
 
 .fkjs-navbar-body{
     padding-top: $padding-small;
-    background-color: #fff;
 }
 
 .fkjs-navbar-body >ul{
