@@ -4,7 +4,11 @@ A basic application template to be used with [generator-freekerneljs](https://gi
 This template uses AngularJS as the MVC framework, combined with Bootstrap to provide the UI design.  
 It can be used as a starting point and basis to develop your own application.
 
-
+#### Quick Introduction:
+* How to Add [A New Page]() in the application.
+* How to add [A New Widget]().
+* How to add [A New Service]().
+* How to [Generate API Documentation](https://github.com/FreeKernelJS/generator-freekerneljs/wiki/grunt-tasks#docs) easily from your JS code.
 
 ##### Features:
 - Routing and sharing data between different sections in the application.
