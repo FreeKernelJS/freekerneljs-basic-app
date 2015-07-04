@@ -1,16 +1,2 @@
-// include files by order to retain dependencies intact
-@import url(http://fonts.googleapis.com/css?family=Roboto);
-
-// common styles
-@import "common/_colors";    //must be required first
-@import "common/_variables"; //must be required second
-@import "common/_mixin";     //must be required third
-@import "common/_main";
-
-// styles for widgets
-@import "widgets/_header";
-@import "widgets/_navbar";
-
-// styles for views (different pages)
-@import "views/_home";
-@import "views/_page2";
+$fkjs_theme: "../../../bower_components/freekerneljs-bootstrap-theme";
+@import "../../../bower_components/freekerneljs-bootstrap-theme/app/scss/_app";
