@@ -4,11 +4,12 @@ describe('[module fkjs.views.home]', function () {
 
     // load the controller's module and all its dependencies
     beforeEach(module('fkjs.views.home')); //main module
+    beforeEach(module('fkjs.services.http')); //dependency
     
     var HomeCtrl, scope;
 
     // Initialize the controller and a mock scope
-    beforeEach(inject(function ($controller) {
+    beforeEach(inject(function($controller, httpService){
         scope = {};
         HomeCtrl = $controller('HomeController', {$scope: scope});
     }));

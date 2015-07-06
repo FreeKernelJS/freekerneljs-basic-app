@@ -52,7 +52,7 @@ $script([
     //views
     'src/views/main/controller.js',
     'src/views/home/controller.js',
-    'src/views/page2/controller.js',
+    'src/views/theme/controller.js',
 
     // app main file
     'src/app.module.js'

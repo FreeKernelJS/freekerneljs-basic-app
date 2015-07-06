@@ -25,9 +25,9 @@
  *              controller: 'HomeController'
  *          })
  *          
- *          .state('page2', {
- *              url: '/page2',
- *              templateUrl: 'src/views/page2/page.html'
+ *          .state('theme', {
+ *              url: '/theme',
+ *              templateUrl: 'src/views/theme/page.html'
  *          });
  * });
  * </pre>
@@ -49,9 +49,9 @@ angular.module('fkjs_(name)')
                 controller: 'HomeController'
             })
             
-            .state('page2', {
-                url: '/page2',
-                templateUrl: 'src/views/page2/page.html',
-                controller: 'Page2Controller'
+            .state('theme', {
+                url: '/theme',
+                templateUrl: 'src/views/theme/page.html',
+                controller: 'ThemeController'
             });
 });

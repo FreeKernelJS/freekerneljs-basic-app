@@ -1,15 +1,35 @@
-    <h2 translate="views.home.title"></h2>
+<h4 translate="views.home.title"></h4>
     
     <div class="panel panel-default">
         <div class="panel-body">
+        <p translate="views.home.text1"></p>
+        <p translate="views.home.text2"></p>
             <p>
-                <span translate="views.home.text"></span>
-                <a href="http://getbootstrap.com/components/" target="_blank" translate="views.home.bootstrap"></a>
-                <span translate="views.home.website"></span>
+            <span class="label label-success" translate="views.home.lastUpdated" translate-values="{ lastVisitDate: lastVisitDate }"></span>
             </p>
-            <p>
-                <span class="glyphicon glyphicon-user"></span>
-                <span translate="views.home.lastVisit" translate-values="{ lastVisitDate: lastVisitDate }"></span>
-            </p>
+        
+        <h5 class="text-uppercase fkjs-home-list-title">{{ 'views.home.listTitle' | translate }}</h5>
+        <ul>
+            <li ng-repeat="item in list">{{item.description}}</li>
+        </ul>
+        <p translate="views.home.moreInfo"></p>
+    </div>
+</div>
+
+<div class="list-group">
+    <a href="#" class="list-group-item active">
+        <h4 class="list-group-item-heading fkjs-list-header"><span class="glyphicon glyphicon-menu-hamburger fkjs-list-header-icon"></span>{{ 'views.home.quickIntro' | translate }}</h4>
+    </a>
+    <div class="list-group-item">
+        <p class="list-group-item-text" translate="views.home.intro1"></p>
+    </div>
+    <div class="list-group-item">
+        <p class="list-group-item-text" translate="views.home.intro2"></p>
+    </div>
+    <div class="list-group-item">
+        <p class="list-group-item-text" translate="views.home.intro3"></p>
+    </div>
+    <div class="list-group-item">
+        <p class="list-group-item-text" translate="views.home.intro4"></p>
         </div>
     </div>

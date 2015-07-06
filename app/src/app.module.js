@@ -25,5 +25,5 @@ angular.module('fkjs_(name)', [
     //app views
     'fkjs.views.main',
     'fkjs.views.home',
-    'fkjs.views.page2'
+    'fkjs.views.theme'
 ]);

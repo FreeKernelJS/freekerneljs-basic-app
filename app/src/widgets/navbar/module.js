@@ -60,8 +60,8 @@ angular.module('fkjs.widgets.navbar', [])
                 locale: 'widgets.navbar.home',
                 activeCss: activeCss
             },{
-                pageUrl: 'page2',
-                locale: 'widgets.navbar.page2'
+                pageUrl: 'theme',
+                locale: 'widgets.navbar.theme'
             }];
         }
     };
