@@ -5,6 +5,7 @@
     "angular": "<%= ngVer %>",
     "angular-mocks": "<%= ngVer %>",
     "angular-ui-router": "~0.2.15",
+    "jquery": "^2.1.4",
     "freekerneljs-bootstrap-theme": "FreeKernelJS/freekerneljs-bootstrap-theme",
     "script.js": "^2.5.7",
     "angular-translate": "^2.7.2",
