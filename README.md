@@ -1,14 +1,16 @@
 # freekerneljs-basic-app
 
-A basic application template to be used with [generator-freekerneljs](https://github.com/FreeKernelJS/generator-freekerneljs).  
-This template uses AngularJS as the MVC framework, combined with Bootstrap to provide the UI design.  
+A basic application Template to be used with [FreeKernelJS Generator](https://github.com/FreeKernelJS/generator-freekerneljs).  
+This Template uses AngularJS as the MVC framework, combined with [freekerneljs-bootstrap-theme
+](https://github.com/FreeKernelJS/freekerneljs-bootstrap-theme) to provide the UI design.  
 It can be used as a starting point and basis to develop your own application.
 
 #### Quick Introduction:
-* How to Add [A New Page](https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki/Adding-A-New-Page) in the application.
+* How to add [A New Page](https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki/Adding-A-New-Page) to the application.
 * How to add [A New Widget](https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki/Adding-A-New-Widget).
 * How to add [A New Service](https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki/Adding-A-New-Service).
-* How to [Generate API Documentation](https://github.com/FreeKernelJS/generator-freekerneljs/wiki/grunt-tasks#docs) easily from your JS code.
+* How to [Generate API Documentation](https://github.com/FreeKernelJS/generator-freekerneljs/wiki/grunt-tasks#docs) easily from your JavaScript code.
+
 
 ##### Features:
 - Routing and sharing data between different sections in the application.
@@ -23,15 +25,13 @@ It can be used as a starting point and basis to develop your own application.
 - HTML 5 structure.
 
 
-
 ##### Dependencies:
+- [jquery](https://github.com/jquery/jquery) (v2.1.x)
 - <a href="https://angularjs.org/">angular</a> (v1.4.x)
 - <a href="https://github.com/angular-ui/ui-router">angular-ui-router</a> (v0.2.x)
 - <a href="https://github.com/angular-translate/angular-translate">angular-translate</a> (v2.7.2)
 - <a href="https://github.com/ded/script.js/">script.js</a> (v2.5.7)
-- <a href="http://getbootstrap.com/">bootstrap</a> (v3.3.x)
  
-
 
 ##### Structure:
 
@@ -40,7 +40,6 @@ It can be used as a starting point and basis to develop your own application.
 └── app/
     ├── assets/
     │   ├── css
-    │   ├── fonts
     │   ├── images
     │   └── sass
     ├── data/
@@ -75,7 +74,7 @@ It can be used as a starting point and basis to develop your own application.
     ├── app.js
     └── index.html
 ```
-- `assets`:  this folder contains any resources being required by the application.
+- `assets`:  this folder contains any resources being required by the application. It also points to the selected theme being used for this application.
 - `data`: mock-up data. Both "server" and "locale" folders can be moved to the back-end in a real live environment.
   * `server`: this folder contains mock up JSON.
   * `locale`: this folder contains files for localization.
