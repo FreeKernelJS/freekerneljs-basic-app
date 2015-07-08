@@ -1,14 +1,14 @@
-{<% var ngVer = "~1.4.0" %>
+{<% var ngVer = "^1.4.0" %>
   "name": "<%= name %>",
   "version": "<%= version %>",
   "dependencies": {
-    "jquery": "^2.1.4",
+    "jquery": "~2.1.4",
     "angular": "<%= ngVer %>",
     "angular-mocks": "<%= ngVer %>",
     "angular-ui-router": "~0.2.15",
-    "angular-translate": "^2.7.2",
-    "angular-translate-loader-static-files": "^2.7.2",
-    "script.js": "^2.5.7",
+    "angular-translate": "~2.7.2",
+    "angular-translate-loader-static-files": "~2.7.2",
+    "script.js": "~2.5.7",
     "freekerneljs-bootstrap-theme": "FreeKernelJS/freekerneljs-bootstrap-theme"
   },
   "overrides": {
