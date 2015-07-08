@@ -1,4 +1,4 @@
-# freekerneljs-basic-app
+# FreeKernelJS Basic App Template
 
 A basic application Template to be used with [FreeKernelJS](https://github.com/FreeKernelJS/generator-freekerneljs).  
 This Template uses AngularJS as the MVC framework, combined with [freekerneljs-bootstrap-theme
@@ -6,16 +6,16 @@ This Template uses AngularJS as the MVC framework, combined with [freekerneljs-b
 It can be used as a starting point and basis to develop your own application.
 
 #### Quick Introduction:
-* How to [add a new Page](https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki/Adding-A-New-Page) to the application.
-* How to [add a new Widget](https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki/Adding-A-New-Widget).
-* How to [add a new Service](https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki/Adding-A-New-Service).
+* [Adding a New Page](https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki/Adding-A-New-Page) in the application.
+* [Adding a New Widget](https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki/Adding-A-New-Widget) in the application.
+* [Adding a New Service](https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki/Adding-A-New-Service) in the application.
 * How to [Generate API Documentation](https://github.com/FreeKernelJS/generator-freekerneljs/wiki/grunt-tasks#docs) easily from your JavaScript code.
 
 
 ##### Features:
 - Routing and sharing data between different sections in the application.
 - Modular architecture that can be extended.
-- Define a Theme to be used in the application.
+- Define a [Theme]() to be used in the application.
 - Best practices for performance.
 - Responsive UI
 - Http service
