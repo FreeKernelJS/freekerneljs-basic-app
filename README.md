@@ -1,20 +1,21 @@
 # freekerneljs-basic-app
 
-A basic application Template to be used with [FreeKernelJS Generator](https://github.com/FreeKernelJS/generator-freekerneljs).  
+A basic application Template to be used with [FreeKernelJS](https://github.com/FreeKernelJS/generator-freekerneljs).  
 This Template uses AngularJS as the MVC framework, combined with [freekerneljs-bootstrap-theme
 ](https://github.com/FreeKernelJS/freekerneljs-bootstrap-theme) to provide the UI design.  
 It can be used as a starting point and basis to develop your own application.
 
 #### Quick Introduction:
-* How to add [A New Page](https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki/Adding-A-New-Page) to the application.
-* How to add [A New Widget](https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki/Adding-A-New-Widget).
-* How to add [A New Service](https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki/Adding-A-New-Service).
+* How to [add a new Page](https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki/Adding-A-New-Page) to the application.
+* How to [add a new Widget](https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki/Adding-A-New-Widget).
+* How to [add a new Service](https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki/Adding-A-New-Service).
 * How to [Generate API Documentation](https://github.com/FreeKernelJS/generator-freekerneljs/wiki/grunt-tasks#docs) easily from your JavaScript code.
 
 
 ##### Features:
 - Routing and sharing data between different sections in the application.
 - Modular architecture that can be extended.
+- Define a Theme to be used in the application.
 - Best practices for performance.
 - Responsive UI
 - Http service
@@ -74,7 +75,7 @@ It can be used as a starting point and basis to develop your own application.
     ├── app.js
     └── index.html
 ```
-- `assets`:  this folder contains any resources being required by the application. It also points to the selected theme being used for this application.
+- `assets`:  this folder contains any resources being required by the application. It also points to the selected theme being used by this application.
 - `data`: mock-up data. Both "server" and "locale" folders can be moved to the back-end in a real live environment.
   * `server`: this folder contains mock up JSON.
   * `locale`: this folder contains files for localization.
