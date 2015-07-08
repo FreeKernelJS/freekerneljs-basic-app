@@ -8,9 +8,9 @@
             "listTitle": "Features",
             "moreInfo": "For more information, please refer to the <a href='https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki' target='_blank'>online documentation</a>",
             "quickIntro": "Quick Introduction",
-            "intro1": "How to add <a href='https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki/Adding-A-New-Page' target='_blank'>A New Page</a> to the application.",
-            "intro2": "How to add <a href='https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki/Adding-A-New-Widget' target='_blank'>A New Widget</a>.",
-            "intro3": "How to add <a href='https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki/Adding-A-New-Service' target='_blank'>A New Service</a>.",
+            "intro1": "<a href='https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki/Adding-A-New-Page' target='_blank'>Adding a New Page</a> in the application.",
+            "intro2": "<a href='https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki/Adding-A-New-Widget' target='_blank'>Adding a New Widget</a> in the application.",
+            "intro3": "<a href='https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki/Adding-A-New-Service' target='_blank'>Adding a New Service</a> in the application.",
             "intro4": "How to <a href='https://github.com/FreeKernelJS/generator-freekerneljs/wiki/grunt-tasks#docs' target='_blank'>Generate API Documentation</a> easily from your JavaScript code."
         }
     },
