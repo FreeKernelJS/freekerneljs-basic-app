@@ -15,7 +15,7 @@ It can be used as a starting point and basis to develop your own application.
 ##### Features:
 - Routing and sharing data between different sections in the application.
 - Modular architecture that can be extended.
-- Define a [Theme]() to be used in the application.
+- Define a [Theme](https://github.com/FreeKernelJS/generator-freekerneljs/wiki/Themes) to be used in the application.
 - Best practices for performance.
 - Responsive UI
 - Http service
