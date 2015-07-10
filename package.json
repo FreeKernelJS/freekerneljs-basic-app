@@ -1,6 +1,6 @@
 {
   "name": "freekerneljs-basic-app",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A basic application Template to be used by FreeKernelJS. Depends on AngularJS and freekerneljs-bootstrap-theme.",
   "license": "MIT",
   "repository": "https://github.com/FreeKernelJS/freekerneljs-basic-app",

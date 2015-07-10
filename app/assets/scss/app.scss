@@ -1,2 +1,5 @@
-$fkjs_theme: "../../../bower_components/fkjs_(theme)";
-@import "../../../bower_components/fkjs_(theme)/fkjs_(theme_main)";
+$fkjs_theme: "fkjs_(theme)";
+$fkjs_theme_root: "fkjs_(theme_root)";
+$fkjs_theme_fonts: "fkjs_(theme_fonts)";
+$fkjs_theme_images: "fkjs_(theme_images)";
+@import "fkjs_(theme_main)";
