@@ -6,7 +6,7 @@ This Template uses AngularJS as the MVC framework, combined with [freekerneljs-b
 It can be used as a starting point and basis to develop your own application.
 
 #### Demo:
-[Live Demo For Basic App Template](http://projects.freekerneljs.org/freekerneljs-basic-app/)
+[Live Demo For Basic App Template](http://demo.freekerneljs.org/freekerneljs-basic-app/)
 
 #### Quick Introduction:
 * [Adding a New Page](https://github.com/FreeKernelJS/freekerneljs-basic-app/wiki/Adding-A-New-Page) in the application.
